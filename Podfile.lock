@@ -1,0 +1,42 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - SJMediaCacheServer (1.4.0):
+    - SJMediaCacheServer/Core (= 1.4.0)
+    - SJMediaCacheServer/KTVCocoaHTTPServer (= 1.4.0)
+    - SJUIKit/SQLite3
+  - SJMediaCacheServer/Core (1.4.0):
+    - SJMediaCacheServer/KTVCocoaHTTPServer
+    - SJUIKit/SQLite3
+  - SJMediaCacheServer/KTVCocoaHTTPServer (1.4.0):
+    - CocoaAsyncSocket
+    - SJUIKit/SQLite3
+  - SJUIKit/SQLite3 (0.0.0.52):
+    - SJUIKit/SQLite3/Core (= 0.0.0.52)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.52)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.52):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.52):
+    - YYModel
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - SJMediaCacheServer
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - SJMediaCacheServer
+    - SJUIKit
+    - YYModel
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  SJMediaCacheServer: 29fc8b76113ce182283bbf4c2758dec0d22d3fa5
+  SJUIKit: 8246b1001e616b0dbd090309fd58cdd609ae3fd4
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 8167c945c6072f34df301b14349841078f44e617
+
+COCOAPODS: 1.9.1
